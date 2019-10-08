@@ -3,6 +3,7 @@ Just a little gem to enable static ActionText attachments.
 # Installing
 
 add `gem 'actiontext-static', git: 'https://github.com/sosodev/actiontext-static.git'` to you're Gemfile
+
 patch your Rails config with `ActionText::Static.patch(config)`
 
 # Usage
